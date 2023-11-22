@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 	int code = 0;
 
 	if (argc <= 2) {
-		printf("Usage: SL.exe <exe_path> <dllPath> [args...]");
+		printf("Usage: SI.exe <exe_path> <dllPath> [args...]");
 		goto CLEANUP_FAIL;
 	}
 
